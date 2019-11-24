@@ -1,0 +1,29 @@
+.wrapper {
+    border: 2px solid #eee;
+    border-radius: 4px;
+    margin: 10px 5px;
+    padding: 10px 30px 10px 10px;
+    position: relative;
+}
+
+.wrapper:first-child {
+    margin-left: 10px;
+}
+
+.wrapper:last-child {
+    margin-right: 10px;
+}
+
+.title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.delete {
+    color: darkred;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+    cursor: pointer;
+}

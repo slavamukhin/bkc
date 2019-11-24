@@ -1,0 +1,13 @@
+.wrapper {
+    padding: 10px 5px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.wrapper:hover {
+    background-color: #eee;
+}
+
+.hint {
+    opacity: .5;
+}

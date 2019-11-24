@@ -1,0 +1,23 @@
+.wrapper {
+    margin: 20px 10px;
+    width: 30%;
+    position: relative;
+}
+
+.input {
+    border: 2px solid #eee;
+    padding: 5px 10px;
+    border-radius: 15px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.wrapperList {
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 1px 1px 10px 1px #eee;
+}
